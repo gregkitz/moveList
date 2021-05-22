@@ -1,0 +1,27 @@
+{
+  "name": "movieList",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start" : "webpack --mode development",
+	"start-dev" : "webpack server --mode development --open",
+	"build" : "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregkitz/moveList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregkitz/moveList/issues"
+  },
+  "homepage": "https://github.com/gregkitz/moveList#readme",
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
